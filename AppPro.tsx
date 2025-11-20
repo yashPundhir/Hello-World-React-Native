@@ -20,6 +20,12 @@ function AppPro(): JSX.Element {
   );
 }
 
-// const styles = StyleSheet.
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
 
 export default AppPro;
